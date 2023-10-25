@@ -5,12 +5,12 @@ VisualStudioVersion = 17.0.31521.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSolution.ConsoleApp", "src\SampleSolution.ConsoleApp\SampleSolution.ConsoleApp.csproj", "{90F21828-0E9E-46D7-B957-C2769335E419}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSolution.ConsoleApp.Tests", "tests\SampleSolution.ConsoleApp.Tests\SampleSolution.ConsoleApp.Tests.csproj", "{F4EF4D0C-9285-4126-9F2A-6F83B5D3DE68}"
-EndProject
+#Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSolution.ConsoleApp.Tests", "tests\SampleSolution.ConsoleApp.Tests\SampleSolution.ConsoleApp.Tests.csproj", "{F4EF4D0C-9285-4126-9F2A-6F83B5D3DE68}"
+#EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E21B2F46-81D8-42B3-9518-7E6ADE356530}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B89D646B-CB1F-4EE1-B06F-BA66BD193778}"
-EndProject
+#Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B89D646B-CB1F-4EE1-B06F-BA66BD193778}"
+#EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

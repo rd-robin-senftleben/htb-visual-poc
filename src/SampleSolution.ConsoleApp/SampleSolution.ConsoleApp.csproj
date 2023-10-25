@@ -4,5 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
-
+<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+  <Exec Command="PowerShell test.ps1" />
+</Target>
 </Project>
